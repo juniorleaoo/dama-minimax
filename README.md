@@ -1,3 +1,3 @@
 # dama-minimax
 
-teste 
+teste  
