@@ -1,23 +1,30 @@
 <html>
     <head>
-        <script src="damas-minimax.js"></script>
-        <link rel="stylesheet" href="dama.css">
-    
+        <title>Jogo de Dama</title>
     </head>
     <body>
         <table>
             <tr>
                 <td>
                     Jogo de dama
-                    <button onclick="criarTabuleiro()">Iniciar jogo</button>
+                    <button onclick="iniciarJogo()">Iniciar jogo</button>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <canvas id="tabuleiro" class="tabuleiro" width="560px"  height="560px">
+                    <canvas id="tabuleiro" class="tabuleiro" width="560px" height="560px">
                     </canvas>       
                 </td>
             </tr>
         </table>
+
+        <script src="js/jQuery/jquery-3.2.1.min.js"></script>
+        <script src="js/damas-minimax.js"></script>
+        <link rel="stylesheet" href="css/dama.css">
+
+        <script>
+            iniciarJogo();
+        </script>
+
     </body>
 </html>
