@@ -1,5 +1,7 @@
 canvas{
     border: 1px solid black;
+    width: 560px;
+    height: 560px;
 }
 
 .tabuleiro{
